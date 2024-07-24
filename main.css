@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f1f5f8;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0px 100px;
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+  height: 70%;
+  margin-top: 100px;
+  display: flex;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.section-title {
+  width: 60%;
+  height: 100%;
+  padding: 60px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+}
+
+.section-img {
+  background-color: rgb(61, 161, 218);
+  width: 40%;
+  height: 100%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.title-one {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.title-two {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2bc3ff;
+}
+
+.description > p {
+  color: #5f5f5f;
+}
+
+.description {
+  margin-bottom: 15px;
+}
+
+.check {
+  margin-bottom: 15px;
+}
+
+.check-list {
+  list-style-type: none;
+}
+
+.check-list-items {
+  margin-bottom: 10px;
+  color: #5f5f5f;
+}
+
+.icon {
+  width: 20px;
+}
+
+.input {
+  border: none;
+  background-color: #f1f5f8;
+  padding: 5px 10px;
+  width: 250px;
+  border-radius: 2px;
+}
+.input:focus {
+  outline: none;
+}
+.input ::placeholder {
+  color: black;
+}
+
+.email-area {
+  margin-bottom: 10px;
+}
+
+.subcribe {
+  border: none;
+  color: #fff;
+  background-color: #2bc3ff;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.subcribe:hover {
+  cursor: pointer;
+}
+
+.unsubscribe {
+  color: #5f5f5f;
+  font-size: 7px;
+}
